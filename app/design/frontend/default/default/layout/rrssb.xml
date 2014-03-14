@@ -1,4 +1,7 @@
 <?xml version="1.0"?>
 <layout version="0.1.0">
-
+  <reference name="product.info">
+    <block type="rrssb/product" name="rrssb.product" as="rrssb_product" template="rrssb/product.phtml">
+    </block>
+  </reference>
 </layout>
