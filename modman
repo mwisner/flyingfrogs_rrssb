@@ -3,6 +3,6 @@
 app/etc/modules/FlyingFrogs_Rrssb.xml app/etc/modules/FlyingFrogs_Rrssb.xml
 app/code/local/FlyingFrogs/Rrssb app/code/local/FlyingFrogs/Rrssb
 app/design/frontend/default/default/layout/rrssb.xml app/design/frontend/default/default/layout/rrssb.xml
-app/design/frontend/default/default/template/rrssb app/design/frontend/default/default/layout/template
+app/design/frontend/default/default/template/rrssb app/design/frontend/default/default/layout/template/rrssb
 skin/frontend/default/default/rrssb skin/frontend/default/default/rrssb
 
