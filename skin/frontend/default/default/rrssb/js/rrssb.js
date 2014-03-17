@@ -218,8 +218,7 @@
 	/*
 	 * Event listners
 	 */
-
-	$('.rrssb-buttons a.popup').on('click', function(e){
+	$(document).on('click', '.rrssb-buttons a.popup', function(e){
 		var _this = $(this);
 		popupCenter(_this.attr('href'), _this.find('.text').html(), 580, 470);
 		e.preventDefault();
@@ -241,4 +240,4 @@
 	});
 
 
-})(window, $);
+})(window, jQuery);

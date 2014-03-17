@@ -19,21 +19,23 @@
 	<use>standard</use>
 	<args>
 	  <module>FlyingFrogs_Rrssb</module>
-	  <frontName>Rrssb</frontName>
+	  <frontName>rrssb</frontName>
 	</args>
       </rrssb>
     </routers>
+    <layout>
+      <updates>
+        <rrssb>
+          <file>rrssb.xml</file>
+        </rrssb>
+      </updates>
+    </layout>
   </frontend>
   <global>
     <blocks>
-      <endis>
+      <rrssb>
 	<class>FlyingFrogs_Rrssb_Block</class>
-      </endis>
+      </rrssb>
     </blocks>
-    <helpers>
-      <endis>
-	<class>FlyingFrogs_Rrssb_Helper</class>
-      </endis>
-    </helpers>
   </global>
 </config>
